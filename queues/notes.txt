@@ -1,0 +1,2 @@
+// queues are more of implemented with LinkedList... well we can implement with arrays but not really ideal since removing the first item would mean reordering the indexes
+which would be O(n)

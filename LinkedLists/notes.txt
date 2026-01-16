@@ -1,0 +1,6 @@
+linked list contains a list of nodes....
+
+nodes has 2 elements: a value you want to store and a pointer(next prop that points to the next node).
+
+first node is called a head and the last node is called a tail(  that points to null)
+
