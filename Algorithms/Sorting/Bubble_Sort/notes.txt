@@ -1,0 +1,2 @@
+//compare 2 numbers at a time and bubble up the highest over and over again until we can bubble anymore(sorted)
+//simple but one of the least efficient... o(n squared)

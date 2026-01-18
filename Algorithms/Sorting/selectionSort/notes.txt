@@ -1,0 +1,2 @@
+//this scans the whole array(data) to find the smallest element and then brings in to the first position  over and over until completely sorted
+//not as a efficient 0(n squared)

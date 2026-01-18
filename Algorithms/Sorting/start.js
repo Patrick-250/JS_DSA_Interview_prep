@@ -3,7 +3,7 @@
 //write a function that would sort an array in ascending order
 
 function sortAsc(arr){
-let sorted=arr.sort(function(a,b){
+let sorted=arr.sort(function checkNumbers(a,b){
     return a-b
 })
 return sorted
@@ -15,7 +15,7 @@ return sorted
 //write a function that would sort an array in descending order
 
 function sortDesc(arr){
-    let sorted=arr.sort(function(a,b){
+    let sorted=arr.sort(function checkNumbers(a,b){
         return b-a
     })
     return sorted
