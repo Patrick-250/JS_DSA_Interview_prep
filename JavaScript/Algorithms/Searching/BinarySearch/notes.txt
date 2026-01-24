@@ -1,0 +1,4 @@
+//this works when the items are sorted..
+when finding the target, because we not the list is sorted, we can disregard half of the items and only check the side where the target would be found(after dividing the items in half)
+// we can keep deviding the items in half over and over again and only check one side...
+//this create tree devide and conquer which gives time complexity of  0(log n)
