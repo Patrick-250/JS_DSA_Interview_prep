@@ -1,0 +1,39 @@
+                           *****Recursion Intro********
+
+Recursion isnt really an algorithm but rather just a (.......not really sure what to call it lol)...
+
+# in recursion we solve a bigger problem by using solutions for the smaller problem(smaller version of bigger prob)...
+
+#classic factorial problem is the start to understand this...
+
+# n!=n*(n-1)!... the factorial of a number is the product of that number and the factorial of the previous number...
+
+'''
+so instead of trying to solve the factorial of let's say 4, we can easy our problem to finding the factorial of 3 and then multiply that to 4; 
+hmmm, now we can redo this principle again, to find the factorial of 3, we can find the factorial of 2 and then multiply that with 3; 
+again, to find the factorial of 2, we can find the factorial of 1 then multiply that with 2. 
+again to find the factorial of 1, we can find the factorial of zero(which is 1 by conversion; 0!=1) and then multiply that with 1.
+
+'''
+
+"""
+as you probably guessed, we always need to have some return results that is already known (0! in the above exaample);
+ this is what is called the base case and that is where our recursion stops.
+
+ another part of recursion after base case is the inner call called recursive case... recursive case needs to be 
+ defined so as it has a way to eventually reach the base case... otherwise we would have infite calls that never reaches base case.
+ 
+ check start.py code
+ """ 
+ 
+                         ****issues with Recursion*****
+
+'''
+what if we dont have the base case(classic guarnted to cause stack overflow) this means that the program will run forever.... which might crush the system.
+systems manufacturers already know this and they handled this... the function will get called until it reaches the maximum recursion depth or atleast
+exhaust the available memory(which the error is called stack overflow; as the functions calls actually get added in a stack)...
+in start.py, try using it to find the factorial of 998; does it work? okay maybe yes, now try 999, what happened? I got the 
+RecursiveError... you guessed it we cannot use recursion to get the factorial of a number more than 998....(trust me that factorial is very very very
+large i would bet no human can even read that number lols).
+
+'''
