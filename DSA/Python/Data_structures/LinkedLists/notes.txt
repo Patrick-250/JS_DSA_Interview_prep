@@ -1,0 +1,28 @@
+"""
+-as lists themselves require more memory allocation(dynamic arrays)
+-we need to know the size of the array before hand(static array)
+-adding and removing items from the beginning or inside of the array is expensive; O(n)
+
+#LinkedLists are here to fix the above limitations by changing how elements are stored in memory...
+
+instead of [6,2,5,6] array; the LinkedList is stored as 6->2->5->6
+#each elemet can only have one link to another element and not more.
+
+"""
+
+
+'''
+to create a LinkedList, we have to create a container with 2 pieces of informations:
+-one for the info we need to store(value)
+-another for the link(pointer)
+#the last element points to nothing; None(null in stubborn javascript lol)
+
+#each block of those containers is called a node
+
+#the first Node is called head and the last node is called tail
+
+#looking at the LinkedList, its like each node is connected to the other in linaer fashion; whoever under the hood, each item in a LinkedList
+IS WRAPPED in its own container(node) while items in array are all WRAPPED in the same container(the array itself)
+#in LinkedList we cannot access each item by index
+
+'''
