@@ -1,0 +1,28 @@
+"""
+dictionaries prety much helps us control internal indices and call them our own names... in array indices
+always are 0 to n-1
+
+
+in dictionaries we can call indices whatever pleases us... this helps in the future when we wanna access that index..
+all we have to do is do dictionary[index] #index here is the key; see below
+
+the tradeoff here is that we loose the order that is internally found in arrays(Lists)
+"""
+
+#dictionaries are created with curly brackets and reperesent the key value pair of informations... where keys are kinda like indices
+#keys need to be strings,numbers or tuples and also each key has to be unique.
+
+"""
+dictionaries are implemented with hash function inrternally.. like the hash function will take in the key and then
+turns it into a pre defined mathematical number (maybe lol) that represent index to the memory address where the value is stored.
+# as u propably guessed, a hash function used needs to be as fast as possible
+#the hash function also gives the same output given the same input...(this is why keys needs to be unique)
+#finaly a good hash function needs to distribute keys uniformly...
+
+"""
+              ******limitations of dictionaries(hash tables)******
+
+'''
+sometimes, the hash function might hash 2 distinct keys to the same value; this is called collision.
+2 methods to solve this are separate chaining and open addressing. to be continued.....
+'''
