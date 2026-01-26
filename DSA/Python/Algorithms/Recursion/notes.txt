@@ -1,6 +1,12 @@
                            *****Recursion Intro********
+"""
+Recursion isnt really an algorithm but rather just a 
+(.......not really sure what to call it lol )
+but maybe I can say that its people's invesion based on how computers functions calling works behind the scene...
+Recursion itself outside programming is just a process of solving the bigger problem by solving smaller sub problems....
 
-Recursion isnt really an algorithm but rather just a (.......not really sure what to call it lol)...
+"""
+
 
 # in recursion we solve a bigger problem by using solutions for the smaller problem(smaller version of bigger prob)...
 
@@ -37,3 +43,26 @@ RecursiveError... you guessed it we cannot use recursion to get the factorial of
 large i would bet no human can even read that number lols).
 
 '''
+
+"""
+ as a rule of thumb, any proprem you can solve with Recursion you can also solve with loops
+(i would not say the opposite is true but if u can figure the base and recursive case and avoid gitting the call limit then maybe).
+
+the time complexity of Recursion is  O(n) most of the time.... can be others (bad like O(n squared)) or good like O(log n) 
+
+FYI, from what i have noticed, actually iteration is even faster than recursion in most cases; 
+i mean think about how the system needs to manage the stack
+and the calls...
+
+because the system also needs to manage stack and all; you would guess it uses more memory...
+
+well well, i dont hate recursion but i just think people fkin overhype it sometimes...
+
+in my college days; i used to just avoid it just because I didnt wanna spend my time figuring out base and recursive cases
+just thought it took a long time(than writing the actual algorithm) for me for some if not most of the problems.
+
+enough,I ll stop hating, you got your choices!!!!....  
+!maybe recursion is loved by some because most of the time its shorter?? idk
+!Maybe some languages(NOT that i can think of any) like optimize recursive solutions and they might be faster that iterations...
+
+"""

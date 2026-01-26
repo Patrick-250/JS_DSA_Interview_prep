@@ -1,0 +1,6 @@
+# Lists are essentially python arrays(if you know js arrays)....
+
+# arrays are actually linear data structures and contains finite number of values
+
+# arrays are indexed from o to n-1, where n is the number of elements.
+
