@@ -32,10 +32,26 @@ class LinkedList:
             self.head=new_node
         self.length+=1
         return self
+    def popLeft(self):
+        if not self.length:
+            raise Exception("your list is empty bro")
+       
+        toberemoved=self.head
+        self.head=toberemoved.next
+        toberemoved.next=None
+        self.length-=1
+        if not self.length:
+            self.tail=None
+        return toberemoved.value
+
+
+            
 
     def remove(self,value):
         if not self.length:
             raise Exception("bruuh your LinkedlIST empty")
+        if self.head.value==value:
+            return self.popLeft() #if the node we want is the head,, just pop it off
         previous_node=self.head
         current_node=self.head.next
         while current_node is not None and current_node.value !=value:
@@ -64,10 +80,10 @@ class LinkedList:
 
 my_LinkedList=LinkedList()
 my_LinkedList.append(23)
-my_LinkedList.append(42)
-my_LinkedList.prepend(45)
-my_LinkedList.prepend(21)
-print(my_LinkedList.length)
+my_LinkedList.prepend(44)
+my_LinkedList.append(53)
+my_LinkedList.remove(53)
+my_LinkedList.remove(44)
 print(my_LinkedList.head.value)
 print(my_LinkedList.tail.value)
          
