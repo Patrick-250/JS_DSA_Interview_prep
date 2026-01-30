@@ -1,0 +1,4 @@
+# with linkedlist... the node had a pointer just to the next node. so the only way to traverse the list was head to tail...
+#can be weak with large list...maybe
+#solution is to modeify the node so it has the pointer to the previous node also
+#
