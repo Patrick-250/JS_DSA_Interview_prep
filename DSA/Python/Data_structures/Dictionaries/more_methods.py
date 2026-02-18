@@ -12,8 +12,9 @@ from start import agents
 keys=agents.keys()
 values=agents.values()
 items=agents.items()
+len=len(agents)
 # print(keys)
 # print(values)
-# print(items)
+# print(len)
 
 
